@@ -19,11 +19,11 @@ nav a:hover {
     background-color: blanchedalmond;
 }
 .book,.join {
-    background-color: #002E2C;
+    background-color:antiquewhite;
 }
 .book:hover,.join:hover {
     background-color: #A2A77F;
 }
 footer {
-    background-color: #002E2C;
+    background-color: antiquewhite;
 }
