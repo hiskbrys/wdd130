@@ -35,6 +35,7 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color:#003828
 }
 img {
   display: block;
@@ -57,7 +58,7 @@ header {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
-  background-color: var(--paragraph-background-color);
+  background-color: #396E94(--paragraph-background-color);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -117,7 +118,7 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  background-color: #002E2C(--nav-hover-background-color);
 }
 .sitemap {
   display: grid;
