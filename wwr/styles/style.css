@@ -2,12 +2,16 @@
 /* Setting up the body font */
 body {
     font-family: 'Roboto', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Setting up the headline font */
 .home-title, .msg h2 {
     font-family: 'Roboto Condensed', 'Helvetica Neue', sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 #content {
@@ -18,6 +22,7 @@ nav a {
     text-align: center;
     background-color: #035E7B;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -47,11 +52,15 @@ nav a:hover {
     background-color: blanchedalmond;
     font-size: .8em;
     line-height: 1.5em;
+    padding: 35px;
 }
 .book,.join {
     background-color:antiquewhite;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover,.join:hover {
     background-color: #A2A77F;
@@ -62,10 +71,16 @@ footer {
 }
 .icon {
     width: 80px;
+    padding: 10px;
 }
 footer p {
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+main section img {
+    box-sizing: border-box;
 }
