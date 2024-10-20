@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+/* Setting up the body font */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Setting up the headline font */
+.home-title, .msg h2 {
+    font-family: 'Roboto Condensed', 'Helvetica Neue', sans-serif;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
