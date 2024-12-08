@@ -20,9 +20,10 @@
     grid-column: 1 / -1;
     text-align: center;
     padding: 10px;
-    font-size: 24px;
+    font-size: 36px;
     border: 1px solid black;
     font-family: Roboto Condensed;
+    background-color: red;
   }
   
   .main {
@@ -38,6 +39,8 @@
     border: 1px solid black;
     text-align: center;
     padding: 10px;
+    background-color: lightgray;
+    font-size: larger;
   }
   
   .image-placeholder {
