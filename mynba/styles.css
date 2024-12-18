@@ -5,20 +5,22 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Roboto Condensed', Rubik;
   line-height: 1.6;
   background-color: #f4f4f4;
-  color: #333;
+  color: #090ce1;
 }
 
 /* Navigation Bar */
 .navbar {
-  background-color: #222;
+  background-color: #d10f0f;
   color: white;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Roboto Condensed
+  ;
 }
 
 .navbar .logo {
@@ -142,7 +144,7 @@ body {
 /* Highlights Section */
 .highlights-section {
   background-color: #222;
-  color: white;
+  color: rgb(12, 38, 239);
   padding: 60px 20px;
   text-align: center;
 }
