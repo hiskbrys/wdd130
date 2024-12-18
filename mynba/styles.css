@@ -1,54 +1,204 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Rubik;
-  }
-  
-  .container {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    height: 100vh;
-  }
-  
-  .header {
-    grid-column: 1 / -1;
-    text-align: center;
-    padding: 10px;
-    font-size: 36px;
-    border: 1px solid black;
-    font-family: Roboto Condensed;
-    background-color: red;
-  }
-  
-  .main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .top-performance, 
-  .top-players, 
-  .most-improved {
-    border: 1px solid black;
-    text-align: center;
-    padding: 10px;
-    background-color: lightgray;
-    font-size: larger;
-  }
-  
-  .image-placeholder {
-    background-color: #eee;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-   
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  font-size: 3.0em;
+}
+
+.navbar .logo img {
+  width: 140px;
+  margin-right: 10px;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+}
+
+.navbar .nav-links li {
+  font-size: 3.0em;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .nav-links li a:hover,
+.navbar .nav-links li a.active {
+  color: #ff4d4d;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url('images/hero-background.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.hero-section h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+  color: #1E90FF; /* Blue color for the title */
+}
+
+.hero-section p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+  color: #1E90FF; /* Blue color for the tagline */
+}
+
+.hero-section .cta-btn {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.hero-section .cta-btn:hover {
+  background-color: #e04040;
+}
+
+/* Conference Section */
+.conference-section {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.8em;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.conference-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.conference-card {
+  width: 45%;
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.conference-card h3 {
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+.conference-img {
+  width: 65%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.conference-card .btn {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.conference-card .btn:hover {
+  background-color: #e04040;
+}
+
+/* Highlights Section */
+.highlights-section {
+  background-color: #222;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.highlights-section .highlight-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.highlight-card {
+  width: 30%;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-card h3 {
+  font-size: 1.6em;
+  margin-top: 20px;
+}
+
+.highlight-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Section */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer .social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+footer .social-icon img {
+  width: 100%;
+  height: 100%;
+}
+

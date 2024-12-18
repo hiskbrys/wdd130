@@ -3,86 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Site</title>
-  <link rel="stylesheet" href="index.css"> <!-- Link to your CSS file -->
+  <title>My NBA Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  
   <!-- Navigation Bar -->
-  <div class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <input type="text" placeholder="Search..">
+  <div class="navbar">
+    <div class="logo">
+      <img src="images/mynbalogo.png" alt="My NBA Logo">
+      <span>My NBA</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="page1.html" class="active">Western Conference</a></li> <!-- Add Western Conference link -->
+      <li><a href="page2.html">Eastern Conference</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </div>
 
-  <!-- Header Section -->
-  <header>
-    <h1>Welcome to My NBA</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="page1.html">Page 1</a></li>
-        <li><a href="page2.html">Page 2</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <h1>Welcome to the Best Place for NBA Takes!</h1>
+    <p>Updated top players from both conference including up to date stats and analysis!</p>
+  </section>
 
-  <!-- Main Content Section -->
-  <main>
-    <section>
-      <h2>MY NBA HOME</h2>
-      <p>Welcome to MY NBA! The best place to get the best takes involving the National Basketball Association! We serve to update you with the current top 5 players from each conference in the league! We have provided links to each conference so you can enjoy reading about the specific conference of your choice! We will also provide more updates and update our list as the season progresses and the lists will surely change based on who is hot and who is cold! Happy reading, NBA fans!</p>
-      
-      <!-- Image for this section -->
-      <img src="images/mynbalogo.png" alt="NBA Home" class="responsive-img">
-    </section>
+  <!-- Conference Sections -->
+  <section class="conference-section">
+    <div class="section-title">
+      <h2>My Top Players From Each Conference!</h2>
+    </div>
 
-    <!-- Highlights Section -->
-    <section>
-      <h2>Highlights</h2>
-      <p>Standout performances</p>
-      <ul>
-        <li>LeBron James' Game-Winner</li>
-        <li>Giannis Antetokounmpo's Dominant 40-Point Game</li>
-        <li>Stephen Curry's Record-Breaking 3-Point Shots</li>
-      </ul>
-      <!-- Add Highlight Image -->
-     
-    </section>
-
-    <!-- Conference Sections -->
-    <section class="content-section">
-      <!-- Western Conference Section -->
-      <div class="conference-column">
-        <h2>Western Conference</h2>
-        <div class="images-row">
-         
-          <img src="images/westernnba.png" alt="Western Conference 1" class="responsive-img">
-          
-          <img src="images/curry.png" alt="Western Conference 2" class="responsive-img">
-        
-          <img src="images/doncic.png" alt="Western Conference 3" class="responsive-img">
-        </div>
+    <div class="conference-cards">
+      <!-- Western Conference -->
+      <div class="conference-card">
+        <img src="images/westernnba.png" alt="Western Conference" class="conference-img">
+        <h3>Western Conference</h3>
+        <p></p>
+        <a href="page1.html" class="btn">See Top Players</a>
       </div>
 
-      <!-- Eastern Conference Section -->
-      <div class="conference-column">
-        <h2>Eastern Conference</h2>
-        <div class="images-row">
-        
-          <img src="images/easternnba.png" alt="Eastern Conference 1" class="responsive-img">
-         
-          <img src="images/jimmybuckets.png" alt="Eastern Conference 2" class="responsive-img">
-    
-          <img src="images/giannis.png" alt="Eastern Conference 3" class="responsive-img">
-        </div>
+      <!-- Eastern Conference -->
+      <div class="conference-card">
+        <img src="images/easternnba.png" alt="Eastern Conference" class="conference-img">
+        <h3>Eastern Conference</h3>
+        <p></p>
+        <a href="page2.html" class="btn">See Top Players</a>
       </div>
-    </section>
-  </main>
-
-  <!-- Footer Section -->
+    </div>
+  </section>
   <footer>
-    <p>FOOTER</p>
+    <p>&copy; 2024 My NBA. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.png" alt="Facebook" class="social-icon"></a>
+      <a href="#"><img src="images/X.png" alt="Twitter" class="social-icon"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram" class="social-icon"></a>
+    </div>
   </footer>
+
 </body>
 </html>
