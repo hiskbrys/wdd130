@@ -35,7 +35,7 @@ body {
 .navbar .nav-links {
   list-style: none;
   display: flex;
-  gap: 80px;
+  gap: 140px;
 }
 
 .navbar .nav-links li {
